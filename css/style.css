@@ -83,6 +83,9 @@ a {
 /* Navigation Section */
 .top-navigation {
 	background-color: #fff;
+	position: fixed;
+	width: 100%;
+	z-index: 9999;
 }
 
 .top-navigation > .content {
@@ -172,36 +175,36 @@ a {
 
 /* Secondary Section */
 
-.secondary > .content {
-	margin-top: 7.875rem;
+.cases {
+	background-color: #fff;
+	padding-bottom: 5rem;
+	overflow: hidden;
 }
 
-.secondary h2,
-.benefits {
+.cases .content {
+	margin-top:  7.875rem;
+	color: #1d1e21;
 	text-align: center;
 }
 
-.secondary h2 {
+.cases h2 {
 	font-size: 2.75rem;
-	font-weight: 300;
 	margin: 1.625rem 0 3.125rem;
-}
+	font-weight: 300;
+}	
 
-.benefits li {
-	width: 33.33%;
+.cases .devices li {
 	float: left;
+	width: 33.333333%;
 }
 
-.secondary h3 {
+.cases .devices li h3 {
 	font-size: 1.563rem;
 	font-weight: 400;
 	margin: 2.5rem 0 1.875rem;
 }
 
-ul.benefits {
-	overflow: hidden;
-	margin-bottom: 5rem;
-}
+
 
 
 
