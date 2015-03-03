@@ -63,8 +63,16 @@ table {
 
 /* End of Reset */
 /* Start of Custom Styles */
+body {
+	font-family: 'Roboto', sans-serif; 
+	-webkit-font-smoothing: antialiased;
+
+}
+
 .content {
 	padding: 0 15px;
+	margin: 0 auto;
+	width: 60rem; /* 970px */
 }
 
 a {
@@ -78,8 +86,6 @@ a {
 }
 
 .top-navigation > .content {
-	margin: 0 auto;
-	width: 60rem; /* 970px */
 	height: 4.375rem; /* 70px */
 }
 
@@ -89,12 +95,10 @@ a {
 
 .top-navigation .links {
 	float: right;	
-	font-family: 'Roboto', sans-serif; 
-	font-size: 16px; 
+	font-size: 1rem; 
 	color: #838994; 
 	letter-spacing: 0.03em;
 	margin-top: 25px;
-	-webkit-font-smoothing: antialiased;
 }
 
 .top-navigation .links li {
@@ -118,49 +122,52 @@ a {
 
 /* Main Section */
 
-.main {
+.introduction {
 	background-image: url('../images/first-background.jpg');
+	background-position: center bottom;
 	background-repeat: no-repeat;
 	background-size: cover;
-	padding: 18rem 0;	
+	height: 45.938rem;
+	overflow: auto;
 }
 
-.main > .content {
-	margin: 0 auto;
-	width: 60rem;
+
+.introduction > .content {
+
+}
+
+.introduction h1,
+.introduction h3 {
+	color: white;
 	text-align: center;
-	color: #fff;
-	font-family: 'Roboto', sans-serif;
 	font-weight: 300;
-	-webkit-font-smoothing: antialiased;
-
 }
 
-.main h1 {
-	font-size: 3.125em;
-	margin-top: -4.5rem;
-	letter-spacing: 0.02em;
-	margin-bottom: 1rem;
+.introduction h1 {
+	font-size: 3.125rem;
+	margin-top: 17.5rem;
 }
 
-.main h2 {
-	font-size: 1.5em;
-	font-weight: 200;
-	letter-spacing: 0.02em;
-	margin-bottom: 1.5rem;
+.introduction h3 {
+	font-size: 1.563rem;
+	margin-top: 1.25rem;
 }
 
-button {
+.big-button {
+	width: 9.688rem;
+	text-shadow: none;
+	border-style: none;
+	border-radius: 4px;
+	padding: 1rem 1.5rem;
 	background-color: #f15a29;
-	border: 1px solid #f15a29;
 	color: #fff;
-	border-radius: 5px;
+	display: block;
 	font-size: 1.125rem;
-	padding: 1rem 2rem;
+	margin: 1.563rem auto 0;
 }
 
-
-
-
-
+.big-button:hover {
+	background-color: #d9400e;
+	cursor: pointer;
+}
 
