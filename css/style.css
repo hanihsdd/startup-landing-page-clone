@@ -1,3 +1,7 @@
+/******************************
+	RESET
+******************************/
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -23,6 +27,7 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
@@ -48,16 +53,74 @@ table {
 }
 
 
+/******************************
+	GENERAL LAYOUT
+******************************/
+
+
+html {
+	-webkit-font-smoothing: antialiased;
+}
+
 body {
 	background-color: LightGray;
+	font-family: 'Roboto', sans-serif; 
+	font-size: 16px; 
+	color: #838994; 
+	letter-spacing: 0.03em;
 }
 
 div {
-	border: 1px solid Chocolate;
+	border: 0px solid Chocolate;
 }
 
 
+/******************************
+	HEADER
+******************************/
 
+
+header {
+	background-color: #fff;
+	position: fixed;
+	width: 100%;
+}
+
+.container {
+	margin: 0 auto;
+	max-width: 60%;
+	height: 70px;
+}
+
+.logo {
+	width: 26px;
+	height: 70px;
+	float: left;
+}
+
+.main-nav {
+	float: right;
+	margin-top: 30px;
+}
+
+.main-nav li {
+	display: inline-block;
+	margin-left: 28px;
+}
+
+.main-nav li a.active {
+	color: #353534;
+	font-weight: 500;
+}
+
+a {
+	color: #adadad;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #353534;
+}
 
 
 
