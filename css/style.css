@@ -116,7 +116,48 @@ a {
 }
 
 
+/* Main Section */
 
+.main {
+	background-image: url('../images/first-background.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 18rem 0;	
+}
+
+.main > .content {
+	margin: 0 auto;
+	width: 60rem;
+	text-align: center;
+	color: #fff;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	-webkit-font-smoothing: antialiased;
+
+}
+
+.main h1 {
+	font-size: 3.125em;
+	margin-top: -4.5rem;
+	letter-spacing: 0.02em;
+	margin-bottom: 1rem;
+}
+
+.main h2 {
+	font-size: 1.5em;
+	font-weight: 200;
+	letter-spacing: 0.02em;
+	margin-bottom: 1.5rem;
+}
+
+button {
+	background-color: #f15a29;
+	border: 1px solid #f15a29;
+	color: #fff;
+	border-radius: 5px;
+	font-size: 1.125rem;
+	padding: 1rem 2rem;
+}
 
 
 
